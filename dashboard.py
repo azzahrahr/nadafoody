@@ -1,7 +1,7 @@
 import streamlit as st
 import sys
 
-sys.path.insert(1, "C:\Users\ACER\streamlit\nada\stenv\Lib\site-packages\streamlit_option_menu")
+sys.path.insert(1, "C:/Users/ACER/streamlit/nada/stenv/Lib/site-packages/streamlit_option_menu")
 
 from streamlit_option_menu import option_menu
 
