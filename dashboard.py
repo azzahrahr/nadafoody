@@ -1,23 +1,6 @@
 import streamlit as st
-from streamlit_option_menu import option_menu
+import option_menu
 import webbrowser
-import sys
-
-try:
-    import streamlit as st
-    from streamlit_option_menu import option_menu
-except ImportError:
-    print("Some required packages are not installed, installing...")
-    sys.exit(
-        subprocess.check_call(
-            [
-                "pip",
-                "install",
-                "streamlit",
-                "streamlit-option-menu",
-            ]
-        )
-    )
 
 st.title("Nada Shop")
 st.image("images/ayam.jpg")
