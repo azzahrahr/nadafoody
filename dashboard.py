@@ -1,5 +1,5 @@
 import streamlit as st
-from streamlit_option_menu import option_menu as om
+from streamlit_option_menu import option_menu
 import webbrowser
 import sys
 
