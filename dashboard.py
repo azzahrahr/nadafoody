@@ -11,8 +11,8 @@ selected_option = st.sidebar.selectbox('Select an option', options)
 
 if selected_option == "Home":
     st.title(f"Selamat datang")
-   pass
-elif selected_option == "Menu":
+
+if selected_option == "Menu":
     st.write("Dimsum Ayam")
     st.write("Rp. 45.000")
     st.image("images/ayam.jpg")
@@ -28,8 +28,8 @@ elif selected_option == "Menu":
     st.write("Dimsum Kepiting")
     st.write("Rp. 45.000")
     st.image("images/kepiting.jpg")
-    pass
-elif selected_option == "Contact":
+    
+if selected_option == "Contact":
     st.write("Silahkan hubungi kontak yang tersedia untuk melakukan pemesanan.")
  
     url = 'https://www.instagram.com/dimsumnyanada'
