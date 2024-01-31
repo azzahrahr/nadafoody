@@ -1,11 +1,10 @@
 import streamlit as st
-from streamlit_option_menu import option_menu
 import webbrowser
 
 st.title("Nada Shop")
 st.image("images/ayam.jpg")
 st.title("Selamat Datang :wave:")
-
+st.sidebar.title('Navigation')
 selected = option_menu(
          menu_title=None,  # required
          options=["Home", "Menu", "Contact"],  # required
@@ -15,10 +14,10 @@ selected = option_menu(
          orientation="horizontal",
 )
 
-if selected == "Home":
+if selected_option == "Home":
     st.title(f"Selamat datang")
    
-if selected == "Menu":
+if selected_option == "Menu":
     st.write("Dimsum Ayam")
     st.write("Rp. 45.000")
     st.image("images/ayam.jpg")
@@ -35,7 +34,7 @@ if selected == "Menu":
     st.write("Rp. 45.000")
     st.image("images/kepiting.jpg")
     
-if selected == "Contact":
+if selected_option == "Contact":
     st.write("Silahkan hubungi kontak yang tersedia untuk melakukan pemesanan.")
  
     url = 'https://www.instagram.com/dimsumnyanada'
