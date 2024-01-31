@@ -5,7 +5,7 @@ st.title("Nada Shop")
 st.image("images/ayam.jpg")
 st.title("================")
 
-tab1, tab2 = st.tabs(["Dimsum", "Manisan", "Kontak"])
+tab1, tab2, tab3 = st.tabs(["Dimsum", "Manisan", "Kontak"])
 with tab1:
     st.write("Dimsum Ayam")
     st.write("Rp. 45.000")
