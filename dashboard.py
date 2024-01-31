@@ -1,5 +1,4 @@
 import streamlit as st
-import webbrowser
 
 st.title("Nada Shop")
 st.image("images/ayam.jpg")
