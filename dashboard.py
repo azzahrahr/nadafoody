@@ -5,7 +5,7 @@ st.title("Nada Shop")
 st.image("images/ayam.jpg")
 st.title("================")
 
-
+tab1, tab2 = st.tabs(["Menu", "Contact"])
 with tab1:
     st.header("Menu")
     st.write("Dimsum Ayam")
