@@ -4,20 +4,18 @@ import webbrowser
 st.title("Nada Shop")
 st.image("images/ayam.jpg")
 st.title("Selamat Datang :wave:")
-st.sidebar.title('Navigation')
-selected = option_menu(
-         menu_title=None,  # required
-         options=["Home", "Menu", "Contact"],  # required
-         icons=["house", "list", "envelope"],  # optional
-         menu_icon="cast",  # optional
-         default_index=0,  # optional
-         orientation="horizontal",
-)
+
+options=["Home", "Menu", "Contact"]  # required
+icons=["house", "list", "envelope"]  # optional
+menu_icon="cast"  # optional
+orientation="horizontal"
+
+selected_option = st.sidebar.selectbox('Select an option', options)
 
 if selected_option == "Home":
     st.title(f"Selamat datang")
-   
-if selected_option == "Menu":
+   pass
+elif selected_option == "Menu":
     st.write("Dimsum Ayam")
     st.write("Rp. 45.000")
     st.image("images/ayam.jpg")
@@ -33,8 +31,8 @@ if selected_option == "Menu":
     st.write("Dimsum Kepiting")
     st.write("Rp. 45.000")
     st.image("images/kepiting.jpg")
-    
-if selected_option == "Contact":
+    pass
+elif selected_option == "Contact":
     st.write("Silahkan hubungi kontak yang tersedia untuk melakukan pemesanan.")
  
     url = 'https://www.instagram.com/dimsumnyanada'
