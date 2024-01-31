@@ -34,8 +34,5 @@ with tab2:
     
 with tab3:
     st.subheader("Silahkan hubungi kontak yang tersedia untuk melakukan pemesanan.")
- 
-    url = 'https://www.instagram.com/dimsumnyanada'
-
-    if st.button('Instagram'):
-        webbrowser.open_new_tab(url)
+        if st.button('Instagram'):
+            webbrowser.open_new_tab('https://www.instagram.com/dimsumnyanada')
