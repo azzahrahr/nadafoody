@@ -3,7 +3,7 @@ import webbrowser
 
 st.title("Nada Shop")
 st.image("images/ayam.jpg")
-st.title("Selamat Datang :wave:")
+st.title("================")
 
 options=["Home", "Menu", "Contact"]  # required
 
