@@ -6,9 +6,6 @@ st.image("images/ayam.jpg")
 st.title("Selamat Datang :wave:")
 
 options=["Home", "Menu", "Contact"]  # required
-icons=["house", "list", "envelope"]  # optional
-menu_icon="cast"  # optional
-orientation="horizontal"
 
 selected_option = st.sidebar.selectbox('Select an option', options)
 
