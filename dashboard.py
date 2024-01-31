@@ -25,8 +25,9 @@ with tab1:
 with tab2:
     st.write("Manisan Mangga")
     st.write("Rp. 45.000/kg")
-    st.image("images/1.jpg")
+    st.image("images/rumput.jpg")
     st.write("-----------------")
+    
 with tab3:
     st.write("Silahkan hubungi kontak yang tersedia untuk melakukan pemesanan.")
  
