@@ -5,14 +5,9 @@ st.title("Nada Shop")
 st.image("images/ayam.jpg")
 st.title("================")
 
-options=["Home", "Menu", "Contact"]  # required
 
-selected_option = st.sidebar.selectbox('Select an option', options)
-
-if selected_option == "Home":
-    st.title(f"Selamat datang")
-
-if selected_option == "Menu":
+with tab1:
+    st.header("Menu")
     st.write("Dimsum Ayam")
     st.write("Rp. 45.000")
     st.image("images/ayam.jpg")
@@ -29,7 +24,8 @@ if selected_option == "Menu":
     st.write("Rp. 45.000")
     st.image("images/kepiting.jpg")
     
-if selected_option == "Contact":
+with tab2:
+    st.header("Contact")
     st.write("Silahkan hubungi kontak yang tersedia untuk melakukan pemesanan.")
  
     url = 'https://www.instagram.com/dimsumnyanada'
