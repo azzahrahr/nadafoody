@@ -1,5 +1,6 @@
 import streamlit as st
 
+st.set_page_config(page_title="NadaFoody", page_icon=":shopping_trolley:", layout="wide")
 st.title("Nada Shop")
 st.image("images/1.png")
 st.divider()
