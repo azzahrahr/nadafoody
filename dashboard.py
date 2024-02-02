@@ -4,7 +4,7 @@ st.title("Nada Shop")
 st.image("images/ayam.jpg")
 st.divider()
 
-tab1, tab2, tab3 = st.tabs(["Dimsum/Lumpia", "Manisan", "Kontak"])
+tab1, tab2, tab3, tab4 = st.tabs(["Dimsum/Lumpia", "Manisan", "Kue Lebaran" "Kontak"])
 with tab1:
     col1, col2, col3, col4 = st.columns(4)
     with col1:
@@ -29,11 +29,33 @@ with tab1:
         st.image("images/kepiting.jpg")
     
 with tab2:
-    st.subheader("Manisan Mangga")
-    st.subheader("Rp. 45.000/kg")
-    st.image("images/manisan1.jpg")
-    st.write("-----------------")
-    
+    col1, col2, col3, col4 = st.columns(4)
+    with col1:
+        st.image("images/manisan1.jpg")
+        st.write(''':red[Rp.0]''')
+    with col2:
+        st.image("images/manisan2.jpg")
+        st.write(''':red[Rp.0]''')
+    with col3:
+        st.image("images/manisan5.jpg")
+        st.write(''':red[Rp.0]''')
+    with col4:
+        st.image("images/manisan7.jpg")
+        st.write(''':red[Rp.0]''')
 with tab3:
+    col1, col2, col3, col4 = st.columns(4)
+    with col1:
+        st.image("images/manisan1.jpg")
+        st.write(''':red[Rp.0]''')
+    with col2:
+        st.image("images/manisan2.jpg")
+        st.write(''':red[Rp.0]''')
+    with col3:
+        st.image("images/manisan5.jpg")
+        st.write(''':red[Rp.0]''')
+    with col4:
+        st.image("images/manisan7.jpg")
+        st.write(''':red[Rp.0]''')
+with tab4:
     st.subheader("Silahkan hubungi kontak yang tersedia untuk melakukan pemesanan.")
     st.link_button("Instagram", "https://www.instagram.com/dimsumnyanada")
