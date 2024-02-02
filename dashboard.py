@@ -10,7 +10,7 @@ with tab1:
     with col1:
         st.subheader("Dimsum Ayam")
         st.write(''':red[*Rp. 50.000]''')
-        st.caption('__isi 12__')
+        st.text('__isi 12__')
         st.image("images/ayam.jpg")
         st.divider()
         st.subheader("Lumpia")
