@@ -8,8 +8,8 @@ tab1, tab2, tab3, tab4 = st.tabs(["Dimsum/Lumpia", "Manisan", "Kue Lebaran", "Ko
 with tab1:
     col1, col2, col3, col4 = st.columns(4)
     with col1:
-        st.subheader("Dimsum Ayam")
-        st.write(''':red[*Rp. 50.000] :grey[(_isi 12_)]''')
+        st.subheader("Dimsum Ayam :grey[(_isi 12_)]")
+        st.write(''':red[*Rp. 50.000]''')
         st.image("images/ayam.jpg")
         st.divider()
         st.subheader("Lumpia")
