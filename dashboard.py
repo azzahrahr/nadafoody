@@ -42,6 +42,7 @@ with tab2:
     with col4:
         st.image("images/manisan7.jpg")
         st.write(''':red[Rp.0]''')
+
 with tab3:
     col1, col2, col3, col4 = st.columns(4)
     with col1:
@@ -53,12 +54,22 @@ st.divider()
     with col2:
         st.image("images/snack2.jpg")
         st.write(''':red[Rp.0]''')
+st.divider()
+        st.image("images/snack6.jpg")
+        st.write(''':red[Rp.0]''')
     with col3:
         st.image("images/snack3.jpg")
+        st.write(''':red[Rp.0]''')
+st.divider()
+        st.image("images/snack7.jpg")
         st.write(''':red[Rp.0]''')
     with col4:
         st.image("images/snack4.jpg")
         st.write(''':red[Rp.0]''')
+st.divider()
+        st.image("images/snack8.jpg")
+        st.write(''':red[Rp.0]''')
+
 with tab4:
     st.subheader("Silahkan hubungi kontak yang tersedia untuk melakukan pemesanan.")
     st.link_button("Instagram", "https://www.instagram.com/dimsumnyanada")
