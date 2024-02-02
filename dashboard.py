@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.title("Nada Shop")
-st.image("images/1.jpg")
+st.image("images/1.png")
 st.divider()
 
 tab1, tab2, tab3, tab4 = st.tabs(["Dimsum/Lumpia", "Manisan", "Kue Lebaran", "Kontak"])
