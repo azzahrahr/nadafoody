@@ -9,12 +9,12 @@ with tab1:
     col1, col2, col3, col4 = st.columns(4)
     with col1:
         st.subheader("Dimsum Ayam")
-        st.write(''':red[Rp. 50.000]''')
+        st.write(''':red[*Rp. 50.000]''')
         st.image("images/ayam.jpg")
         st.divider()
         st.subheader("Lumpia")
         st.subheader("Rp. 35.000")
-        st.image("images/kepiting.jpg")
+        st.image("images/lumpia.jpg")
     with col2:
         st.subheader("Dimsum Rumput Laut")
         st.write(''':red[Rp. 50.000]''')
