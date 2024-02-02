@@ -48,25 +48,25 @@ with tab3:
     with col1:
         st.image("images/snack1.jpg")
         st.write(''':red[Rp.0]''')
-st.divider()
+        st.divider()
         st.image("images/snack5.jpg")
         st.write(''':red[Rp.0]''')
     with col2:
         st.image("images/snack2.jpg")
         st.write(''':red[Rp.0]''')
-st.divider()
+        st.divider()
         st.image("images/snack6.jpg")
         st.write(''':red[Rp.0]''')
     with col3:
         st.image("images/snack3.jpg")
         st.write(''':red[Rp.0]''')
-st.divider()
+        st.divider()
         st.image("images/snack7.jpg")
         st.write(''':red[Rp.0]''')
     with col4:
         st.image("images/snack4.jpg")
         st.write(''':red[Rp.0]''')
-st.divider()
+        st.divider()
         st.image("images/snack8.jpg")
         st.write(''':red[Rp.0]''')
 
