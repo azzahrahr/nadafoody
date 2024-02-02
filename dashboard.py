@@ -8,29 +8,29 @@ tab1, tab2, tab3 = st.tabs(["Dimsum/Lumpia", "Manisan", "Kontak"])
 with tab1:
     col1, col2, col3, col4 = st.columns(4)
     with col1:
-        st.header("Dimsum Ayam")
-        st.header("Rp. 50.000")
+        st.subheader("Dimsum Ayam")
+        st.subheader("Rp. 50.000")
         st.image("images/ayam.jpg")
         st.write("----------------")
-        st.header("Lumpia")
-        st.header("Rp. 35.000")
+        st.subheader("Lumpia")
+        st.subheader("Rp. 35.000")
         st.image("images/kepiting.jpg")
     with col2:
-        st.header("Dimsum Rumput Laut")
-        st.header("Rp. 50.000")
+        st.subheader("Dimsum Rumput Laut")
+        st.subheader("Rp. 50.000")
         st.image("images/rumput.jpg")
     with col3:
-        st.header("Dimsum Udang")
-        st.header("Rp. 50.000")
+        st.subheader("Dimsum Udang")
+        st.subheader("Rp. 50.000")
         st.image("images/udang.jpg")
     with col4:
-        st.header("Dimsum Kepiting")
-        st.header("Rp. 50.000")
+        st.subheader("Dimsum Kepiting")
+        st.subheader("Rp. 50.000")
         st.image("images/kepiting.jpg")
     
 with tab2:
-    st.header("Manisan Mangga")
-    st.header("Rp. 45.000/kg")
+    st.subheader("Manisan Mangga")
+    st.subheader("Rp. 45.000/kg")
     st.image("images/rumput.jpg")
     st.write("-----------------")
     
