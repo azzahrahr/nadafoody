@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.title("Nada Shop")
-st.image("images/ayam.jpg")
+st.image("images/1.jpg")
 st.divider()
 
 tab1, tab2, tab3, tab4 = st.tabs(["Dimsum/Lumpia", "Manisan", "Kue Lebaran", "Kontak"])
@@ -45,16 +45,19 @@ with tab2:
 with tab3:
     col1, col2, col3, col4 = st.columns(4)
     with col1:
-        st.image("images/manisan1.jpg")
+        st.image("images/snack1.jpg")
+        st.write(''':red[Rp.0]''')
+st.divider()
+        st.image("images/snack5.jpg")
         st.write(''':red[Rp.0]''')
     with col2:
-        st.image("images/manisan2.jpg")
+        st.image("images/snack2.jpg")
         st.write(''':red[Rp.0]''')
     with col3:
-        st.image("images/manisan5.jpg")
+        st.image("images/snack3.jpg")
         st.write(''':red[Rp.0]''')
     with col4:
-        st.image("images/manisan7.jpg")
+        st.image("images/snack4.jpg")
         st.write(''':red[Rp.0]''')
 with tab4:
     st.subheader("Silahkan hubungi kontak yang tersedia untuk melakukan pemesanan.")
