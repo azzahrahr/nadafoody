@@ -2,6 +2,7 @@ import streamlit as st
 
 st.title("Nada Shop")
 st.image("images/ayam.jpg")
+st.divider()
 
 tab1, tab2, tab3 = st.tabs(["Dimsum/Lumpia", "Manisan", "Kontak"])
 with tab1:
@@ -10,7 +11,7 @@ with tab1:
         st.subheader("Dimsum Ayam")
         st.write(''':red[Rp. 50.000]''')
         st.image("images/ayam.jpg")
-        st.write("----------------")
+        st.divider()
         st.subheader("Lumpia")
         st.subheader("Rp. 35.000")
         st.image("images/kepiting.jpg")
@@ -30,7 +31,7 @@ with tab1:
 with tab2:
     st.subheader("Manisan Mangga")
     st.subheader("Rp. 45.000/kg")
-    st.image("images/rumput.jpg")
+    st.image("images/manisan1.jpg")
     st.write("-----------------")
     
 with tab3:
