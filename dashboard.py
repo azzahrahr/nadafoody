@@ -10,23 +10,23 @@ with tab1:
     col1, col2, col3, col4 = st.columns(4)
     with col1:
         st.subheader('''Dimsum Ayam :grey[(_isi 12_)]''')
-        st.write(''':red[*Rp. 50.000]''')
+# st.write(''':red[*Rp. 50.000]''')
         st.image("images/ayam.jpg")
         st.divider()
         st.subheader('''Lumpia :grey[(_isi 6_)]''')
-        st.write(''':red[*Rp. 35.000]''')
+# st.write(''':red[*Rp. 35.000]''')
         st.image("images/lumpia.jpg")
     with col2:
         st.subheader('''Dimsum Rumput Laut :grey[(_isi 9_)]''')
-        st.write(''':red[*Rp. 50.000]''')
+# st.write(''':red[*Rp. 50.000]''')
         st.image("images/rumput.jpg")
     with col3:
         st.subheader('''Dimsum Udang :grey[(_isi 9_)]''')
-        st.write(''':red[*Rp. 50.000]''')
+# st.write(''':red[*Rp. 50.000]''')
         st.image("images/udang.jpg")
     with col4:
         st.subheader('''Dimsum Kepiting :grey[(_isi 9_)]''')
-        st.write(''':red[*Rp. 50.000]''')
+# st.write(''':red[*Rp. 50.000]''')
         st.image("images/kepiting.jpg")
     
 with tab2:
@@ -48,28 +48,28 @@ with tab3:
     col1, col2, col3, col4 = st.columns(4)
     with col1:
         st.image("images/snack1.jpg")
-        st.write(''':red[*Rp.0]''')
+# st.write(''':red[*Rp.0]''')
         st.divider()
         st.image("images/snack5.jpg")
-        st.write(''':red[*Rp.0]''')
+# st.write(''':red[*Rp.0]''')
     with col2:
         st.image("images/snack2.jpg")
-        st.write(''':red[*Rp.0]''')
+# st.write(''':red[*Rp.0]''')
         st.divider()
         st.image("images/snack8.jpg")
-        st.write(''':red[*Rp.0]''')
+# st.write(''':red[*Rp.0]''')
     with col3:
         st.image("images/snack3.jpg")
-        st.write(''':red[*Rp.0]''')
+# st.write(''':red[*Rp.0]''')
         st.divider()
         st.image("images/snack6.jpg")
-        st.write(''':red[*Rp.0]''')
+# st.write(''':red[*Rp.0]''')
     with col4:
         st.image("images/snack4.jpg")
-        st.write(''':red[*Rp.0]''')
+# st.write(''':red[*Rp.0]''')
         st.divider()
         st.image("images/snack7.jpg")
-        st.write(''':red[*Rp.0]''')
+# st.write(''':red[*Rp.0]''')
 
 with tab4:
     st.subheader("Silahkan hubungi kontak yang tersedia untuk melakukan pemesanan.")
