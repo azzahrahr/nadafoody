@@ -33,16 +33,16 @@ with tab2:
     col1, col2, col3, col4 = st.columns(4)
     with col1:
         st.image("images/manisan1.jpg")
-        st.write(''':red[*Rp.0]''')
+# st.write(''':red[*Rp.0]''')
     with col2:
         st.image("images/manisan2.jpg")
-        st.write(''':red[*Rp.0]''')
+# st.write(''':red[*Rp.0]''')
     with col3:
         st.image("images/manisan5.jpg")
-        st.write(''':red[*Rp.0]''')
+# st.write(''':red[*Rp.0]''')
     with col4:
         st.image("images/manisan7.jpg")
-        st.write(''':red[*Rp.0]''')
+# st.write(''':red[*Rp.0]''')
 
 with tab3:
     col1, col2, col3, col4 = st.columns(4)
